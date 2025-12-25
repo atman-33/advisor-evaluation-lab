@@ -22,6 +22,34 @@ tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'skillport/*', 'te
 
 ---
 
+## エージェントファイルの共通フォーマット (Frontmatter)
+
+すべてのエージェントファイルは、以下の形式のFrontmatterで開始してください。
+`tools` は全エージェント共通で `['vscode', 'execute', 'read', 'edit', 'search', 'web', 'terminal-runner/*', 'agent', 'todo']` を指定してください。
+
+```yaml
+---
+name: <Agent Name>
+description: <Agent Description>
+tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'terminal-runner/*', 'agent', 'todo']
+---
+```
+
+各エージェントの `name` と `description` は以下のように設定してください。
+
+- **Main エージェント**:
+  - name: `Main Agent`
+  - description: `This custom agent manages the overall improvement loop by coordinating Sub-A and Sub-C agents.`
+- **Sub-A エージェント**:
+  - name: `Sub-A Agent`
+  - description: `This custom agent conducts benchmark tests and evaluations using multiple Sub-B agents.`
+- **Sub-B エージェント**:
+  - name: `Sub-B Agent`
+  - description: `This custom agent generates answers based on the knowledge base using a RAG-like approach.`
+- **Sub-C エージェント**:
+  - name: `Sub-C Agent`
+  - description: `This custom agent improves the knowledge base based on evaluation feedback.`
+
 ## 各エージェントの詳細仕様
 
 各エージェントファイルには、以下の振る舞いを記述してください。

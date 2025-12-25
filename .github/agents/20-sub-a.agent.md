@@ -1,3 +1,9 @@
+---
+name: Sub-A Agent
+description: This custom agent conducts benchmark tests and evaluations using multiple Sub-B agents.
+tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'terminal-runner/*', 'agent', 'todo']
+---
+
 # Sub-A エージェント
 
 **役割**: ベンチマークテストの実施と評価（テスター）

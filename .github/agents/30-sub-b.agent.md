@@ -1,3 +1,9 @@
+---
+name: Sub-B Agent
+description: This custom agent generates answers based on the knowledge base using a RAG-like approach.
+tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'terminal-runner/*', 'agent', 'todo']
+---
+
 # Sub-B エージェント
 
 **役割**: ナレッジに基づいた回答の生成（アドバイザー）

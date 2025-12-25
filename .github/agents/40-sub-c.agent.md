@@ -1,3 +1,9 @@
+---
+name: Sub-C Agent
+description: This custom agent improves the knowledge base based on evaluation feedback.
+tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'terminal-runner/*', 'agent', 'todo']
+---
+
 # Sub-C エージェント
 
 **役割**: ナレッジベースの改善（トレーナー/エンジニア）
