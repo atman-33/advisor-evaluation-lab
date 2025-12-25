@@ -1,0 +1,7 @@
+# 問いのカテゴリと参照すべきナレッジのマッピング
+mappings:
+  - category: "general"
+    knowledge_base:
+      - path: "knowledge/general.md"
+        description: "アドバイスの基本原則"
+        keywords: ["基本", "心構え", "ルール"]

@@ -1,7 +1,7 @@
 ---
 name: init-advisor-system
 description: アドバイザー評価システムの初期セットアップ（エージェント定義ファイルの生成）を行います。
-tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'agent', 'todo']
+tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'skillport/*', 'terminal-runner/*', 'agent', 'todo']
 ---
 
 このリポジトリは、「人の悩みに対するアドバイザー」としてのAIを育成・検証するための環境です。
@@ -40,7 +40,7 @@ tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'agent', 'todo']
   - Sub-A エージェントに対し、現在の「試行回数」を伝えて評価プロセスを開始させる。
 - **終了条件の判定**:
   - 以下のいずれか（OR条件）を満たした場合、処理を終了する。
-    1. 試行回数が5回に達した。
+    1. 試行回数が10回に達した。
     2. 評価スコア（平均点）が3回連続で低下した。
 - **評価完了後のアクション**:
   - Sub-A から完了報告を受けた後、`docs/scores.yml` を確認する。
