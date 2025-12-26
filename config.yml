@@ -3,5 +3,5 @@ mappings:
   - category: "general"
     knowledge_base:
       - path: "knowledge/general.md"
-        description: ""
-        keywords: []
+        description: "アドバイスの基本原則"
+        keywords: ["基本", "心構え", "ルール"]
