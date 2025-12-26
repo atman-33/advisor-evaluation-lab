@@ -3,8 +3,8 @@ mappings:
   - category: "general"
     knowledge_base:
       - path: "knowledge/general.md"
-        description: "共感、自律性、実行可能性などのアドバイスの基本原則と心構え"
-        keywords: ["基本", "心構え", "共感", "クッション言葉", "自律性"]
+        description: "共感、自律性、実行可能性、および共感と論理を統合したハイブリッドな応答原則"
+        keywords: ["基本", "心構え", "共感", "クッション言葉", "自律性", "ハイブリッド", "現状維持", "重み付け"]
       - path: "knowledge/counseling_techniques.md"
-        description: "課題の分離、境界線、白黒思考の緩和などの具体的な心理学的アプローチ"
-        keywords: ["課題の分離", "境界線", "バウンダリー", "白黒思考", "リフレーミング", "認知の歪み"]
+        description: "課題の分離、境界線、白黒思考の緩和、具体的なベビーステップの設計"
+        keywords: ["課題の分離", "境界線", "バウンダリー", "白黒思考", "リフレーミング", "認知の歪み", "ベビーステップ", "行動設計"]
