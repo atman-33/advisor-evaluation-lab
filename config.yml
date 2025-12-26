@@ -3,5 +3,8 @@ mappings:
   - category: "general"
     knowledge_base:
       - path: "knowledge/general.md"
-        description: "アドバイスの基本原則"
-        keywords: ["基本", "心構え", "ルール"]
+        description: "共感、自律性、実行可能性などのアドバイスの基本原則と心構え"
+        keywords: ["基本", "心構え", "共感", "クッション言葉", "自律性"]
+      - path: "knowledge/counseling_techniques.md"
+        description: "課題の分離、境界線、白黒思考の緩和などの具体的な心理学的アプローチ"
+        keywords: ["課題の分離", "境界線", "バウンダリー", "白黒思考", "リフレーミング", "認知の歪み"]

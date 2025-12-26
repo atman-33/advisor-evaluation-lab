@@ -4,3 +4,9 @@
     sub_b_2: 7.0
     sub_b_3: 8.5
   average: 7.7
+- trial: 2
+  details:
+    sub_b_1: 8.5
+    sub_b_2: 9.0
+    sub_b_3: 8.0
+  average: 8.5
