@@ -25,3 +25,10 @@
     sub_b_2: 9.6
     sub_b_3: 9.9
   average: 9.8
+
+- trial: 5
+  details:
+    sub_b_1: 8.5
+    sub_b_2: 9.2
+    sub_b_3: 9.5
+  average: 9.1
