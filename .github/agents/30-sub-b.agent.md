@@ -4,7 +4,7 @@ description: This custom agent generates answers based on the knowledge base usi
 tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'terminal-runner/*', 'agent', 'todo']
 ---
 
-# Sub-B エージェント
+# Sub-B Agent
 
 **役割**: ナレッジに基づいた回答の生成（アドバイザー）
 

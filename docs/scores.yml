@@ -1,24 +1,34 @@
 - trial: 1
   details:
-    sub_b_1: 7.5
-    sub_b_2: 7.0
-    sub_b_3: 8.5
-  average: 7.7
+    sub_b_1: 9.9
+    sub_b_2: 9.8
+    sub_b_3: 8.6
+  average: 9.4
+
 - trial: 2
   details:
-    sub_b_1: 8.5
-    sub_b_2: 9.0
-    sub_b_3: 8.0
-  average: 8.5
+    sub_b_1: 9.7
+    sub_b_2: 9.4
+    sub_b_3: 9.6
+  average: 9.6
+
 - trial: 3
+  details:
+    sub_b_1: 9.8
+    sub_b_2: 9.7
+    sub_b_3: 9.9
+  average: 9.8
+
+- trial: 4
+  details:
+    sub_b_1: 9.8
+    sub_b_2: 9.6
+    sub_b_3: 9.9
+  average: 9.8
+
+- trial: 5
   details:
     sub_b_1: 8.5
     sub_b_2: 9.2
-    sub_b_3: 9.6
+    sub_b_3: 9.5
   average: 9.1
-- trial: 4
-  details:
-    sub_b_1: 9.6
-    sub_b_2: 8.5
-    sub_b_3: 9.4
-  average: 9.2

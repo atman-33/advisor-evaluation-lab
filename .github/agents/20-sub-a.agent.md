@@ -4,7 +4,7 @@ description: This custom agent conducts benchmark tests and evaluations using mu
 tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'terminal-runner/*', 'agent', 'todo']
 ---
 
-# Sub-A エージェント
+# Sub-A Agent
 
 **役割**: ベンチマークテストの実施と評価（テスター）
 
