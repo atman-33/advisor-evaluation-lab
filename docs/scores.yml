@@ -1,1 +1,6 @@
-[]
+- trial: 1
+  details:
+    sub_b_1: 7.5
+    sub_b_2: 7.0
+    sub_b_3: 8.5
+  average: 7.7
